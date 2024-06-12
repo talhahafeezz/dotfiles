@@ -83,6 +83,9 @@ source $ZSH/oh-my-zsh.sh
 
 eval "$(zoxide init zsh)"
 
+alias tp='telepresence quit -s && telepresence connect --namespace thafeez'
+
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
